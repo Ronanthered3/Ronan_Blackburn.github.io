@@ -1,0 +1,393 @@
+* {
+    padding: 0;
+    margin: 0;
+    background-color: #ebebeb;
+}
+
+#MainNavigation {
+    background-color: black;
+    border-bottom: 3px solid black;
+}
+
+#MainNavigation li {
+    display: inline-block;
+}
+
+#MainNavigation a {
+    color: black;
+    display: block;
+    padding: 10px;
+}
+
+#MainNavigation a:link {
+    text-decoration: none;
+  }
+
+#MainNavigation .active{
+    background-color: black;
+    color: white;
+}
+
+.ProjectButton {
+    padding: 10px;
+    display: inline-block;
+    margin-top: 30px;
+    color: white;
+    background-color: black;
+    
+}
+
+.ProjectButton a:link {
+    text-decoration: none;
+}
+
+.ProjectButton a:visited {
+    color: white;
+    background-color: black;
+}
+
+.MoreInfoButton {
+    padding: 10px;
+    display: inline-block;
+    margin-top: 30px;
+    color: white;
+    background-color: black;    
+}
+
+.MoreInfoButton a:link {
+    text-decoration: none;
+}
+
+.MoreInfoButton a:visited {
+    color: white;
+    background-color: black;
+}
+
+.NextParagraph {
+    padding-top: 10px;
+}
+
+#FooterNavigation {
+    background-color: black;
+    border-top: 3px solid black;
+    margin-top: 25px;
+    text-align: center;
+}
+
+.FooterGrid p {
+    display: inline-block;
+}
+
+.FooterContinued p {
+    display: inline-block;
+}
+
+
+
+
+
+/* --- MEDIA QUERIES --- */
+
+@media (min-width: 0px){
+    nav ul {
+        text-align: center;
+    }
+
+
+    .Intro {
+        text-align: center;
+        padding-top: 20px;
+    }
+
+    .StartofParagraph {
+        padding-top: 10px;
+    }
+
+    .Background {
+        padding-top: 80px;
+    }
+
+    img {
+        width: 90%;
+        padding-top: 20px;
+    }
+
+    .Featured {
+        padding-top: 30px;
+    }
+
+    .FeaturedGif {
+        width: 60%;
+    }
+
+    .FeaturedContent {
+        font-weight: normal;
+    }
+
+    .Skills {
+        display: grid;
+        align-items: center;
+        justify-content: center;
+        grid-template-columns: 120px 150px 100px;
+        padding-top: 20px;
+        column-gap: 1px;
+    }
+
+    .Projects {
+        text-align: center;
+        padding-top: 20px;
+    }
+
+    .VRGame {
+        padding-top: 30px;
+    }
+
+    .VRGameContent {
+        font-weight: normal;
+    }
+
+    .VRGameGif {
+        width: 60%;
+    }
+
+    .ProjectFeatured {
+        padding-top: 20px;
+    }
+
+    .ProjectFeaturedContent {
+        font-weight: normal;
+    }
+
+    .ProjectFeaturedGif {
+        width: 60%;
+    }
+
+    .AIGame {
+        text-align: center;
+        padding-top: 20px;
+    }
+
+    .AIContent {
+        font-weight: normal;
+    }
+
+    .AIGameGif {
+        width: 60%;
+    }
+
+    .About {
+        text-align: center;
+        padding-top: 20px;
+    }
+
+    .ContactInfo {
+        text-align: center;
+        padding-top: 20px;
+    }
+
+    .KatanaApprentice {
+        text-align: center;
+        padding-top: 20px;
+    }
+
+    .VRVideo {
+        width: 300px;
+        height: 220px;
+        padding-top: 25px;
+        border: none;
+    }
+
+    .OilBottle {
+        width: 35%;
+    }
+
+    .PaintingMechanic {
+        text-align: center;
+        padding-top: 20px;
+    }
+
+    .PaintingMechanicGif {
+        width: 50%;
+    }
+
+    .AICoding {
+        text-align: center;
+        padding-top: 20px;
+    }
+
+    .AIGif {
+        width: 50%;
+    }
+
+    .MePic {
+        width: 50%;
+        
+    }
+    
+}
+
+@media (min-width: 1700px){
+    .Featured {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 1px;
+        padding-top: 30px;
+        margin-right: 50px;
+        justify-content: center;
+        transform: translate(-150px);
+    }
+
+    .Featured h3 {
+        font-weight: bold;
+        margin-left: 700px;
+        padding-top: 20px;
+    }
+    
+    .FeaturedContent {
+        font-weight: normal;
+        text-decoration: none;
+        margin-left: 50px;
+        margin-right: 50px;
+        padding-top: 20px;
+    }
+
+    h1 {
+        font-size: 36px;
+    }
+
+    h2 {
+        font-size: 28px;
+    }
+
+    p {
+        font-size: 20px;
+    }
+
+    img {
+        width: 70%;
+        padding-right: 300px;
+    }
+
+    .Skills{
+        grid-template-columns: 200px 200px 200px;
+        column-gap: 1px;    
+    }
+
+    .VRGameGif {
+        width: 70%;
+        padding-right: 200px;
+    }
+
+    .VRGame {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 1px;
+        justify-content: center;
+        margin-right: 50px;
+        transform: translate(-150px);
+    }
+
+    .VRGame h3 {
+        font-weight: bold;
+        margin-top: 80px;
+        margin-left: 500px;
+        padding-top: 20px;
+    }
+
+    .VRGameContent {
+        font-weight: normal;
+        text-decoration: none;
+        margin-left: 50px;
+        margin-right: 50px;
+        padding-top: 20px;
+    }
+
+    .ProjectFeaturedGif {
+        width: 70%;
+        padding-right: 200px;
+    }
+
+    .ProjectFeatured {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 1px;
+        padding-top: 150px;
+        margin-right: 50px;
+        justify-content: center;
+        transform: translate(-150px);
+    }
+
+    .ProjectFeatured h3 {
+        font-weight: bold;
+        margin-top: 80px;
+        margin-left: 500px;
+        padding-top: 20px;
+    }
+
+    .ProjectFeaturedContent {
+        font-weight: normal;
+        text-decoration: none;
+        margin-left: 50px;
+        margin-right: 50px;
+        padding-top: 20px;
+    }
+
+    .AIGameGif {
+        width: 70%;
+        padding-right: 200px;
+    }
+
+    .AIGame {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 1px;
+        padding-top: 150px;
+        margin-right: 50px;
+        justify-content: center;
+        transform: translate(-150px);
+    }
+
+    .AIGame h3 {
+        font-weight: bold;
+        margin-top: 80px;
+        margin-left: 500px;
+        padding-top: 20px;
+    }
+
+    .AIContent {
+        font-weight: normal;
+        text-decoration: none;
+        margin-left: 50px;
+        margin-right: 50px;
+        padding-top: 20px;
+    }
+
+    .Question {
+        margin-left: 150px;
+        margin-bottom: -800px;
+        transform: translateY(-1000px);
+        scale: 45%;
+    }
+
+    .VRVideo {
+        width: 500px;
+        height: 420px;
+    }
+
+    .OilBottle {
+        transform: translate(150px);
+    }
+
+    .PaintingMechanicGif {
+        transform: translate(150px);
+    }
+
+    .AIGif {
+        transform: translate(150px);
+    }
+
+    .MePic {
+        width: 20%;
+        transform: translate(150px);
+    }
+}
