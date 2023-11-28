@@ -175,6 +175,19 @@
         width: 60%;
     }
 
+    .LevelProjectGif {
+        width: 60%;
+    }
+
+    .LevelProject {
+        text-align: center;
+        padding-top: 20px;
+    }
+
+    .LevelContent {
+        font-weight: normal;
+    }
+
     .About {
         text-align: center;
         padding-top: 20px;
@@ -222,6 +235,15 @@
     .MePic {
         width: 50%;
         
+    }
+
+    .FracturedTime {
+        text-align: center;
+        padding-top: 20px;
+    }
+
+    .FracturedTimeGif {
+        width: 80%;
     }
     
 }
@@ -362,6 +384,36 @@
         padding-top: 20px;
     }
 
+    .LevelProjectGif {
+        width: 70%;
+        padding-right: 200px;
+    }
+
+    .LevelProject {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 1px;
+        padding-top: 150px;
+        margin-right: 50px;
+        justify-content: center;
+        transform: translate(-150px);
+    }
+
+    .LevelProject h3 {
+        font-weight: bold;
+        margin-top: 80px;
+        margin-left: 500px;
+        padding-top: 20px;
+    }
+
+    .LevelContent {
+        font-weight: normal;
+        text-decoration: none;
+        margin-left: 50px;
+        margin-right: 50px;
+        padding-top: 20px;
+    }
+
     .Question {
         margin-left: 150px;
         margin-bottom: -800px;
@@ -389,5 +441,10 @@
     .MePic {
         width: 20%;
         transform: translate(150px);
+    }
+
+    .FracturedTimeGif {
+        transform: translate(150px);
+        width: 35%;
     }
 }
