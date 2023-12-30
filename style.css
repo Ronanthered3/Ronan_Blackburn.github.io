@@ -426,6 +426,10 @@
         height: 420px;
     }
 
+    .AIGif {
+        transform: translate(-150px);
+    }
+
     .OilBottle {
         transform: translate(150px);
     }
