@@ -188,6 +188,15 @@
         font-weight: normal;
     }
 
+    .ElementProject {
+        text-align: center;
+        padding-top: 20px;
+    }
+
+    .ElementContent {
+        font-weight: normal;
+    }
+
     .About {
         text-align: center;
         padding-top: 20px;
@@ -244,6 +253,11 @@
 
     .FracturedTimeGif {
         width: 80%;
+    }
+
+    .Elemental {
+        text-align: center;
+        padding-top: 20px;
     }
     
 }
@@ -414,6 +428,31 @@
         padding-top: 20px;
     }
 
+    .ElementProject {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 1px;
+        padding-top: 150px;
+        margin-right: 50px;
+        justify-content: center;
+        transform: translate(-150px);
+    }
+
+    .ElementProject h3 {
+        font-weight: bold;
+        margin-top: 80px;
+        margin-left: 500px;
+        padding-top: 20px;
+    }
+
+    .ElementContent {
+        font-weight: normal;
+        text-decoration: none;
+        margin-left: 50px;
+        margin-right: 50px;
+        padding-top: 20px;
+    }
+
     .Question {
         margin-left: 150px;
         margin-bottom: -800px;
@@ -436,6 +475,15 @@
     }
 
     .FracturedTimeGif {
+        transform: translate(150px);
+        width: 35%;
+    }
+
+    .Elemental h2 {
+        padding-top: 20px;
+    }
+
+    .ElementAbility {
         transform: translate(150px);
         width: 35%;
     }
