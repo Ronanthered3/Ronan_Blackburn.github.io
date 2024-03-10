@@ -484,7 +484,7 @@
     }
 
     .ElementAbility {
-        transform: translate(150px);
+        padding-top: 10px;
         width: 35%;
     }
 }
